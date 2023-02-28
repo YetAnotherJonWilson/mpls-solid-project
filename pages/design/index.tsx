@@ -8,9 +8,9 @@ export default function Design() {
         <h2>Colors</h2>
         <h3>Primary</h3>
         <p
+          className="bg-primary-900"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 30%, 30%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -19,9 +19,9 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-primary-800"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 40%, 40%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -30,9 +30,9 @@ export default function Design() {
           800
         </p>
         <p
+          className="bg-primary-700"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 60%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -41,9 +41,9 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-primary-500"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 100%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -52,9 +52,9 @@ export default function Design() {
           500
         </p>
         <p
+          className="bg-primary-300"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 100%, 75%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -63,9 +63,9 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-primary-100"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(180, 100%, 90%)',
             padding: '30px',
             color: 'white',
           }}
@@ -75,9 +75,9 @@ export default function Design() {
         <br />
         <h3>Neutrals</h3>
         <p
+          className="bg-neutral-900"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(0, 0%, 20%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -86,9 +86,9 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-neutral-700"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(0, 0%, 35%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -97,9 +97,9 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-neutral-500"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(0, 0%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -108,9 +108,9 @@ export default function Design() {
           500
         </p>
         <p
+          className="bg-neutral-300"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(0, 0%, 75%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -119,9 +119,9 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-neutral-100"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(0, 0%, 90%)',
             padding: '30px',
             color: 'white',
           }}
@@ -131,9 +131,9 @@ export default function Design() {
         <br />
         <h3>Accents</h3>
         <p
+          className="bg-accent1-900"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(60, 40%, 40%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -142,9 +142,9 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-accent1-700"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(60, 60%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -153,9 +153,9 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-accent1-500"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(60, 100%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -164,9 +164,9 @@ export default function Design() {
           500
         </p>
         <p
+          className="bg-accent1-300"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(60, 100%, 75%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -175,9 +175,9 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-accent1-100"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(60, 100%, 90%)',
             padding: '30px',
             color: 'white',
           }}
@@ -186,9 +186,9 @@ export default function Design() {
         </p>
         <br />
         <p
+          className="bg-accent2-900"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(300, 40%, 40%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -197,9 +197,9 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-accent2-700"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(300, 60%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -208,9 +208,9 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-accent2-500"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(300, 100%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -219,9 +219,9 @@ export default function Design() {
           500
         </p>
         <p
+          className="bg-accent2-300"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(300, 100%, 75%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -230,9 +230,9 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-accent2-100"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(300, 100%, 90%)',
             padding: '30px',
             color: 'white',
           }}
@@ -241,9 +241,9 @@ export default function Design() {
         </p>
         <br />
         <p
+          className="bg-accent3-900"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(280, 40%, 40%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -252,9 +252,9 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-accent3-700"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(280, 60%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -263,9 +263,9 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-accent3-500"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(280, 100%, 50%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -274,9 +274,9 @@ export default function Design() {
           500
         </p>
         <p
+          className="bg-accent3-300"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(280, 100%, 75%)',
             marginRight: '25px',
             padding: '30px',
             color: 'white',
@@ -285,9 +285,9 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-accent3-100"
           style={{
             display: 'inline-flex',
-            backgroundColor: 'HSL(280, 100%, 90%)',
             padding: '30px',
             color: 'white',
           }}
