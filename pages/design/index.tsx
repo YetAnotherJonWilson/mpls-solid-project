@@ -41,6 +41,17 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-primary-600"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          600
+        </p>
+        <p
           className="bg-primary-500"
           style={{
             display: 'inline-flex',

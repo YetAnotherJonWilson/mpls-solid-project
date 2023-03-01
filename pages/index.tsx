@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
+import Members from '../components/members';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingXl}>
         <p>Welcome.</p>
+        <Members></Members>
       </section>
     </Layout>
   );
