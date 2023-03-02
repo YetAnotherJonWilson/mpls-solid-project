@@ -11,8 +11,15 @@
   margin-right: 300px;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
 }
 
 .nav1 img {
   filter: opacity(50%);
+  position: absolute;
+}
+
+.nav1 p {
+  position: relative;
+  top: 70px;
 }
