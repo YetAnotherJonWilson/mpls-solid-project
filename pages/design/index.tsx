@@ -130,6 +130,17 @@ export default function Design() {
           300
         </p>
         <p
+          className="bg-neutral-200"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          200
+        </p>
+        <p
           className="bg-neutral-100"
           style={{
             display: 'inline-flex',
