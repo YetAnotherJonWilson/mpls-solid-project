@@ -164,6 +164,17 @@ export default function Design() {
           700
         </p>
         <p
+          className="bg-accent1-600"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          600
+        </p>
+        <p
           className="bg-accent1-500"
           style={{
             display: 'inline-flex',
@@ -297,6 +308,61 @@ export default function Design() {
         </p>
         <p
           className="bg-accent3-100"
+          style={{
+            display: 'inline-flex',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          100
+        </p>
+        <br />
+        <p
+          className="bg-accent4-900"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          900
+        </p>
+        <p
+          className="bg-accent4-700"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          700
+        </p>
+        <p
+          className="bg-accent4-500"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          500
+        </p>
+        <p
+          className="bg-accent4-300"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          300
+        </p>
+        <p
+          className="bg-accent4-100"
           style={{
             display: 'inline-flex',
             padding: '30px',

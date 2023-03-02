@@ -3,7 +3,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Minneapolis Solid Project';
+const name1 = 'Minneapolis';
+const name2 = 'Solid Project';
 export const siteTitle = 'Minneapolis Solid Project';
 
 export default function Layout({ children, home }: any) {
@@ -24,13 +25,16 @@ export default function Layout({ children, home }: any) {
       <header className={styles.header}>
         {home ? (
           <>
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading3Xl} style={{ fontWeight: '200' }}>
+              {name1}
+            </h1>
+            <h1 className={utilStyles.heading3Xl}>{name2}</h1>
           </>
         ) : (
           <>
             <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
-                {name}
+                {name1}
               </Link>
             </h2>
           </>

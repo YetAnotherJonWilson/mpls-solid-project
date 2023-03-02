@@ -1,0 +1,18 @@
+.navbar {
+  margin-left: 75px;
+  display: flex;
+}
+
+.nav1 {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav1 img {
+  filter: opacity(50%);
+}
