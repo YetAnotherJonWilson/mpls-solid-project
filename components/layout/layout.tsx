@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
+import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
 
 const name1 = 'Minneapolis';
@@ -22,24 +22,34 @@ export default function Layout({ children, home }: any) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <h1 className={utilStyles.heading3Xl} style={{ fontWeight: '200' }}>
-              {name1}
-            </h1>
-            <h1 className={utilStyles.heading3Xl}>{name2}</h1>
-          </>
-        ) : (
-          <>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name1}
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
+
+      {home ? (
+        <header className={styles.header}>
+          <h1 className={utilStyles.heading3Xl} style={{ fontWeight: '200' }}>
+            {name1}
+          </h1>
+          <h1 className={utilStyles.heading3Xl}>{name2}</h1>
+        </header>
+      ) : (
+        <header
+          className={styles.header}
+          style={{ backgroundColor: 'HSL(300, 60%, 50%)' }}
+        >
+          <h2 className={utilStyles.headingXl}>
+            <Link href="/" className={utilStyles.colorInherit}>
+              <span
+                style={{
+                  color: 'white',
+                }}
+              >
+                <span style={{ fontWeight: '200' }}>{name1}</span>
+                {name2}
+              </span>
+            </Link>
+          </h2>
+        </header>
+      )}
+
       <div className={styles.container}>
         <main>{children}</main>
         {!home && (
