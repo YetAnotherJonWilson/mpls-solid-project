@@ -164,6 +164,17 @@ export default function Design() {
           900
         </p>
         <p
+          className="bg-accent1-800"
+          style={{
+            display: 'inline-flex',
+            marginRight: '25px',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          800
+        </p>
+        <p
           className="bg-accent1-700"
           style={{
             display: 'inline-flex',
