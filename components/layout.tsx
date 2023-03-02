@@ -9,7 +9,7 @@ export const siteTitle = 'Minneapolis Solid Project';
 
 export default function Layout({ children, home }: any) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content="Minneapolis Solid Project" />
@@ -40,12 +40,14 @@ export default function Layout({ children, home }: any) {
           </>
         )}
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )}
+      <div className={styles.container}>
+        <main>{children}</main>
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">← Back to home</Link>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

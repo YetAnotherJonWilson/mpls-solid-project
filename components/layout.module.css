@@ -6,7 +6,9 @@
 .header {
   display: flex;
   margin-bottom: 60px;
+  margin-top: 48px;
   padding-left: 75px;
+  background-color: HSL(180, 100%, 50%);
 }
 
 .backToHome {
