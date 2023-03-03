@@ -37,12 +37,8 @@ export default function Layout({ children, home }: any) {
         >
           <h2 className={utilStyles.headingXl}>
             <Link href="/" className={utilStyles.colorInherit}>
-              <span
-                style={{
-                  color: 'white',
-                }}
-              >
-                <span style={{ fontWeight: '200' }}>{name1}</span>
+              <span className="text-white">
+                <span className="font-extralight">{name1}</span>
                 {name2}
               </span>
             </Link>

@@ -83,6 +83,16 @@ export default function Design() {
         >
           100
         </p>
+        <p
+          className="bg-primary-50"
+          style={{
+            display: 'inline-flex',
+            padding: '30px',
+            color: 'white',
+          }}
+        >
+          50
+        </p>
         <br />
         <h3>Neutrals</h3>
         <p
