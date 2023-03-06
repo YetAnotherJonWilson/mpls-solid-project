@@ -1,16 +1,12 @@
-.container {
-  padding: 0 1rem;
-  margin: 36px auto 6rem;
-}
-
 .header {
-  display: flex;
-  margin-bottom: 60px;
-  margin-top: 48px;
-  padding-left: 75px;
-  background-color: HSL(180, 100%, 50%);
+  @apply flex;
+  @apply mb-16;
+  @apply mt-12;
+  @apply pl-20;
+  @apply bg-primary-500;
 }
 
 .backToHome {
-  margin: 36px 0 0;
+  @apply mt-9;
+  @apply ml-6;
 }
