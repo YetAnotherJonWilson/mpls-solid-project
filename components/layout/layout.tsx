@@ -25,10 +25,10 @@ export default function Layout({ children, home }: any) {
 
       {home ? (
         <header className={styles.header}>
-          <h1 className={utilStyles.heading3Xl} style={{ fontWeight: '200' }}>
-            {name1}
-          </h1>
-          <h1 className={utilStyles.heading3Xl}>{name2}</h1>
+          <div className={utilStyles.heading3Xl}>
+            <span className="font-extralight">{name1}</span>
+            {name2}
+          </div>
         </header>
       ) : (
         <header
