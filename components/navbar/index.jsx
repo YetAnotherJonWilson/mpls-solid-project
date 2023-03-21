@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './navbar.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
@@ -9,7 +11,11 @@ export default function Navbar() {
         <p>Presentations</p>
       </div>
       <div className={`${styles.nav1} bg-accent2-300`}>
-        <img src="/images/icon-user-group.svg" width="60px"></img>
+        <FontAwesomeIcon
+          icon={faUsers}
+          size="3x"
+          style={{ opacity: '50%', position: 'absolute' }}
+        />
         <p>Members</p>
       </div>
       <div className={`${styles.nav1} bg-primary-500`}>
