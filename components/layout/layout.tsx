@@ -25,9 +25,26 @@ export default function Layout({ children, home }: any) {
 
       {home ? (
         <header className={styles.header}>
-          <div className={utilStyles.heading3Xl}>
+          <div className={`${utilStyles.heading3Xl} grow`}>
             <span className="font-extralight">{name1}</span>
             {name2}
+          </div>
+          <div className="flex items-center mr-10">
+            <div className="block">
+              <a
+                href="https://solidproject.org/users/get-a-pod"
+                className="text-black"
+              >
+                Get a Solid Pod
+              </a>
+              <br />
+              <a
+                href="https://www.meetup.com/minneapolis-solid-project/"
+                className="text-black"
+              >
+                Join Our Meetup
+              </a>
+            </div>
           </div>
         </header>
       ) : (
