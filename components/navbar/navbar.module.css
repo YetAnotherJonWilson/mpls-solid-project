@@ -1,6 +1,5 @@
 .navbar {
   margin-left: 75px;
-  display: flex;
 }
 
 .nav1 {
@@ -8,10 +7,11 @@
   width: 100px;
   border-radius: 50%;
   display: flex;
-  margin-right: 300px;
+  margin-right: 20%;
   align-items: center;
   justify-content: center;
   white-space: nowrap;
+  @apply text-primary-900;
 }
 
 .nav1 img {
