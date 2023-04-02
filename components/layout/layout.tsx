@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styles from './layout.module.css';
 import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
 
@@ -24,7 +23,7 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className={styles.header}>
+        <header className="flex mb-16 mt-12 pl-20 bg-primary-500 drop-shadow-lg">
           <div className={`${utilStyles.heading3Xl} grow`}>
             <span className="font-extralight">{name1}</span>
             {name2}
@@ -66,7 +65,7 @@ export default function Layout({ children, home }: any) {
       <div className={styles.container}>
         <main>{children}</main>
         {!home && (
-          <div className={styles.backToHome}>
+          <div className="mt-9 ml-6">
             <Link href="/">← Back to home</Link>
           </div>
         )}
