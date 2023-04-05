@@ -23,7 +23,7 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className="flex mb-16 mt-12 pl-20 bg-primary-500 drop-shadow-lg">
+        <header className="flex mb-16 mt-12 pl-20 bg-primary-500 shadow-lg">
           <div className={`${utilStyles.heading3Xl} grow`}>
             <span className="font-extralight">{name1}</span>
             {name2}
@@ -47,10 +47,7 @@ export default function Layout({ children, home }: any) {
           </div>
         </header>
       ) : (
-        <header
-          className={styles.header}
-          style={{ backgroundColor: 'HSL(300, 60%, 50%)' }}
-        >
+        <header className="bg-accent2-700">
           <h2 className={utilStyles.headingXl}>
             <Link href="/" className={utilStyles.colorInherit}>
               <span className="text-white">
@@ -62,7 +59,7 @@ export default function Layout({ children, home }: any) {
         </header>
       )}
 
-      <div className={styles.container}>
+      <div>
         <main>{children}</main>
         {!home && (
           <div className="mt-9 ml-6">
