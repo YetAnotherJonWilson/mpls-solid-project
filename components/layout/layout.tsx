@@ -28,18 +28,26 @@ export default function Layout({ children, home }: any) {
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="flex items-center mr-10">
+          <div className="text-primary-900 text-3xl relative top-14 right-20">
+            <div className="shadow-md rounded">
+              <p className="bg-accent2-300 font-bold px-8 pt-2">
+                Own your data.
+              </p>
+              <p className="bg-accent2-300 font-bold px-8 pb-2">Own the Web.</p>
+            </div>
+          </div>
+          <div className="flex items-center mr-10 hidden">
             <div className="block">
               <a
                 href="https://solidproject.org/users/get-a-pod"
-                className="text-black"
+                className="text-primary-900"
               >
                 Get a Solid Pod
               </a>
               <br />
               <a
                 href="https://www.meetup.com/minneapolis-solid-project/"
-                className="text-black"
+                className="text-primary-900"
               >
                 Join Our Meetup
               </a>
