@@ -28,13 +28,16 @@ export default function Layout({ children, home }: any) {
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="text-primary-900 text-3xl relative top-14 right-20">
-            <div className="shadow-md rounded">
-              <p className="bg-accent2-300 font-bold px-8 pt-2">
-                Own your data.
-              </p>
-              <p className="bg-accent2-300 font-bold px-8 pb-2">Own the Web.</p>
-            </div>
+          <div className="text-3xl relative top-16 right-20 rotate-6">
+            <p
+              className="font-bold px-8 py-2 shadow-xl border-2 border-solid border-accent3-900"
+              style={{
+                backgroundColor: 'HSL(24, 100%, 50%)',
+                color: 'whitesmoke',
+              }}
+            >
+              Own your data
+            </p>
           </div>
           <div className="flex items-center mr-10 hidden">
             <div className="block">
