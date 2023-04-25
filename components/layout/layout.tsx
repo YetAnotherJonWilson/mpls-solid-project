@@ -8,7 +8,7 @@ export const siteTitle = 'Minneapolis Solid Project';
 
 export default function Layout({ children, home }: any) {
   return (
-    <div>
+    <div className="w-max sm:w-full">
       <Head>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content="Minneapolis Solid Project" />
@@ -23,12 +23,12 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className="flex mb-16 mt-12 pl-20 bg-primary-500 shadow-lg">
-          <div className={`${utilStyles.heading3Xl} grow`}>
+        <header className="flex mb-16 mt-12 px-3 sm:pl-20 bg-primary-500 shadow-lg">
+          <div className="text-5xl leading-tight font-extrabold tracking-tighter my-4 text-primary-900 grow">
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="text-3xl relative top-16 right-20 rotate-6">
+          <div className="text-3xl relative top-16 right-20 rotate-6 hidden">
             <p
               className="font-bold px-8 py-2 shadow-xl border-2 border-solid border-accent3-900"
               style={{
