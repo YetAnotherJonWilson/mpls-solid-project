@@ -5,7 +5,9 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
-    <div className={`${styles.navbar} block lg:flex`}>
+    <div
+      className={`${styles.navbar} block lg:flex lg:col-start-1 lg:col-end-12`}
+    >
       <div
         className={`${styles.nav1} shadow-lg bg-accent1-600 hover:border-solid hover:border-4 hover:border-accent1-900 hover:cursor-pointer hover:underline hover:decoration-accent1-900 hover:decoration-4 mb-20`}
       >

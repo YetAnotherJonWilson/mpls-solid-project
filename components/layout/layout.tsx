@@ -71,7 +71,9 @@ export default function Layout({ children, home }: any) {
       )}
 
       <div>
-        <main>{children}</main>
+        <main className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12">
+          {children}
+        </main>
         {!home && (
           <div className="mt-9 ml-6">
             <Link href="/">← Back to home</Link>
