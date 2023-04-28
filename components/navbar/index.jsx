@@ -8,27 +8,21 @@ export default function Navbar() {
     <div
       className={`${styles.navbar} block lg:flex lg:col-start-1 lg:col-end-12`}
     >
-      <div
-        className={`${styles.nav1} shadow-lg bg-accent1-600 hover:border-solid hover:border-4 hover:border-accent1-900 hover:cursor-pointer hover:underline hover:decoration-accent1-900 hover:decoration-4 mb-20`}
-      >
+      <div className={`${styles.nav1} shadow-lg bg-accent1-600 mb-20`}>
         <img src="/images/icon-presentation-play.svg" width="60px"></img>
-        <p>Presentations</p>
+        <p>What Solid Is</p>
       </div>
-      <div
-        className={`${styles.nav1} shadow-lg bg-accent2-300 hover:border-solid hover:border-4 hover:border-accent2-900 hover:cursor-pointer hover:underline hover:decoration-accent2-900 hover:decoration-4 mb-20`}
-      >
+      <div className={`${styles.nav2} shadow-lg bg-accent2-300 mb-20`}>
         <FontAwesomeIcon
           icon={faUsers}
           size="3x"
           style={{ opacity: '50%', position: 'absolute' }}
         />
-        <p>Members</p>
+        <p>Who We Are</p>
       </div>
-      <div
-        className={`${styles.nav1} shadow-lg bg-primary-500 hover:border-solid hover:border-4 hover:border-primary-900 hover:cursor-pointer hover:underline hover:decoration-primary-900 hover:decoration-4 hover:underline-offset-4 mb-20`}
-      >
+      <div className={`${styles.nav3} shadow-lg bg-primary-500 mb-20`}>
         <img src="/images/icon-application.svg" width="60px"></img>
-        <p>Apps</p>
+        <p>What We're Doing</p>
       </div>
     </div>
   );

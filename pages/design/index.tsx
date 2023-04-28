@@ -3,7 +3,7 @@ import Layout from '../../components/layout/layout';
 export default function Design() {
   return (
     <Layout>
-      <div>
+      <div className="lg:col-start-1 lg:col-end-12 md:col-start-1 md:col-end-12">
         <h1>Designs</h1>
         <h2>Colors</h2>
         <h3>Primary</h3>
