@@ -8,7 +8,7 @@ export const siteTitle = 'Minneapolis Solid Project';
 
 export default function Layout({ children, home }: any) {
   return (
-    <div className="w-max sm:w-full">
+    <div>
       <Head>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content="Minneapolis Solid Project" />
@@ -23,12 +23,12 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className="flex mb-16 mt-12 px-3 sm:pl-20 bg-primary-500 shadow-lg">
-          <div className="text-5xl leading-tight font-extrabold tracking-tighter my-4 text-primary-900 grow">
+        <header className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 md:col-span-6 lg:col-span-12 bg-primary-500 shadow-lg py-7 my-7 grow">
+          <div className="col-start-2 col-span-5 text-5xl leading-tight font-extrabold tracking-tighter text-primary-900">
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="text-3xl relative top-16 right-20 rotate-6">
+          <div className="col-start-8 col-span-3 text-3xl rotate-6">
             <p
               className="font-bold px-8 py-2 shadow-xl"
               style={{
@@ -70,16 +70,14 @@ export default function Layout({ children, home }: any) {
         </header>
       )}
 
-      <div>
-        <main className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12">
-          {children}
-        </main>
-        {!home && (
-          <div className="mt-9 ml-6">
-            <Link href="/">← Back to home</Link>
-          </div>
-        )}
-      </div>
+      <main className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 mt-20">
+        {children}
+      </main>
+      {!home && (
+        <div className="mt-9 ml-6">
+          <Link href="/">← Back to home</Link>
+        </div>
+      )}
     </div>
   );
 }
