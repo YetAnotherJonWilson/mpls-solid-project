@@ -23,7 +23,7 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 md:col-span-6 lg:col-span-12 bg-primary-500 shadow-lg py-7 my-7">
+        <header className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-4 bg-primary-500 shadow-lg py-7 my-7">
           <div className="col-start-2 col-span-5 text-5xl leading-tight font-extrabold tracking-tighter text-primary-900">
             <span className="font-extralight">{name1}</span>
             {name2}
@@ -70,7 +70,7 @@ export default function Layout({ children, home }: any) {
         </header>
       )}
 
-      <main className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 mt-20">
+      <main className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-4 mt-20">
         {children}
       </main>
       {!home && (
