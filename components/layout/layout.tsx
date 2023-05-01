@@ -23,12 +23,12 @@ export default function Layout({ children, home }: any) {
       </Head>
 
       {home ? (
-        <header className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 md:col-span-6 lg:col-span-12 bg-primary-500 shadow-lg py-7 my-7 grow">
+        <header className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 md:col-span-6 lg:col-span-12 bg-primary-500 shadow-lg py-7 my-7">
           <div className="col-start-2 col-span-5 text-5xl leading-tight font-extrabold tracking-tighter text-primary-900">
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="col-start-9 col-span-3 text-2xl rotate-12 relative top-3">
+          <div className="col-start-9 col-span-3 text-2xl rotate-12 relative top-14">
             <p
               className="font-semibold px-8 py-2 shadow-xl w-fit"
               style={{
