@@ -28,9 +28,9 @@ export default function Layout({ children, home }: any) {
             <span className="font-extralight">{name1}</span>
             {name2}
           </div>
-          <div className="col-start-8 col-span-3 text-3xl rotate-6">
+          <div className="col-start-9 col-span-3 text-2xl rotate-12 relative top-3">
             <p
-              className="font-bold px-8 py-2 shadow-xl"
+              className="font-semibold px-8 py-2 shadow-xl w-fit"
               style={{
                 backgroundColor: 'HSL(24, 100%, 50%)',
                 color: 'whitesmoke',
